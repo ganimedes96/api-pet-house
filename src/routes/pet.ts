@@ -1,4 +1,4 @@
-import { DeletePetController } from "@/http/controllers/delete-pet-controller";
+import { DeletePetController } from "../http/controllers/delete-pet-controller";
 import { FetchPetsController } from "@/http/controllers/fetch-pets-controller";
 import { FindPetByIdController } from "@/http/controllers/find-pet-by-id-controller";
 import { validateFields } from "@/http/controllers/middlewares/fieldsValidation";
