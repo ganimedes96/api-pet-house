@@ -11,7 +11,8 @@
     "test:unit": "vitest --dir src/use-cases",
     "test:e2e": "vitest run --dir src/http",
     "test:e2e:watch": "vitest --dir src/http",
-    "migrate": "npx prisma migrate dev"
+    "migrate": "npx prisma migrate dev",
+    "vercel-build":"npx prisma migrate deploy"
   },
   "keywords": [],
   "author": "",
