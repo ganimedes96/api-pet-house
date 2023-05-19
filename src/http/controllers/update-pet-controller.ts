@@ -1,7 +1,7 @@
 import { Response, Request } from 'express'
 import { MakeUpdatePetsUseCase  } from '../../use-cases/factories/make-update-pet-use-case'
 import { z } from 'zod'
-import { ResourceNotFoundError } from '@/use-cases/error/resource-not-found-error'
+import { ResourceNotFoundError } from '../../use-cases/error/resource-not-found-error'
 
 export class UpdatePetController {
     update = async (request: Request, response: Response) => {
